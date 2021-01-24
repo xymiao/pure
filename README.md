@@ -6,34 +6,14 @@ Pure
 A set of small, responsive CSS modules that you can use in every web project.
 [http://purecss.io/][Pure]
 
-[![Build Status](http://img.shields.io/travis/yahoo/pure.svg?style=flat)][Build Status]
-[![Dependency Status](https://david-dm.org/yahoo/pure/dev-status.svg)](https://david-dm.org/yahoo/pure?type=dev)
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/yahoo/pure?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](http://img.shields.io/travis/pure-css/pure.svg?style=flat)][Build Status]
+[![Dependency Status](https://david-dm.org/pure-css/pure/dev-status.svg)](https://david-dm.org/pure-css/pure?type=dev)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/pure-css/pure?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-**Use From the CDN:**
-
-```html
-<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css">
-```
-
-Note: You can [customize which Pure modules you need][customize].
-
-**Install with Bower:**
-
-```shell
-$ bower install --save pure
-```
-
-**Install with NPM:**
-
-```shell
-$ npm install purecss
-```
+**This project is looking for maintainers to support and enhance Pure.css. If you are interested please [leave a comment](https://github.com/pure-css/pure/issues/692) in the Github issue.**
 
 [Pure]: http://purecss.io/
-[Bower]: http://bower.io/
-[Build Status]: https://travis-ci.org/yahoo/pure
-[customize]: http://purecss.io/customize/
+[Build Status]: https://travis-ci.com/pure-css/pure
 
 
 Features
@@ -60,7 +40,7 @@ of all the CSS work that every site needs, without making it look cookie-cutter:
 
 * Responsive by default, with a non-responsive option.
 
-* Extremely small file size: **4.5KB minified + gzip**.
+* Extremely small file size: **3.7KB minified + gzip**.
 
 
 [Normalize.css]: http://necolas.github.io/normalize.css/
@@ -69,27 +49,9 @@ of all the CSS work that every site needs, without making it look cookie-cutter:
 Get Started
 -----------
 
-To get started using Pure, go to the [Pure CSS website][Pure]. The website has
-extensive documentation and examples to help you start using Pure.
+Check out the [Get Started][Started] page for more information.
 
-You can include the Pure CSS file in your project by fetching it from Yahoo's
-CDN:
-
-```html
-<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css">
-```
-
-You can also install Pure using [Bower][], using the following command:
-
-```shell
-$ bower install --save pure
-```
-
-Or you can install Pure using NPM:
-
-```shell
-$ npm install purecss
-```
+[Started]: https://purecss.io/start/
 
 Build From Source
 -----------------
@@ -98,7 +60,7 @@ Optionally, you can build Pure from its source on Github. To do this, you'll
 need to have Node.js and npm installed. We use [Grunt][] to build Pure.
 
 ```shell
-$ git clone git@github.com:yahoo/pure.git
+$ git clone git@github.com:pure-css/pure.git
 $ cd pure
 $ npm install
 $ grunt
@@ -149,21 +111,21 @@ Browser Support and Testing
 
 Pure is tested and works in:
 
-* IE 8+
+* IE 10+
 * Latest Stable: Firefox, Chrome, Safari
-* iOS 6-8
-* Android 4.x
+* iOS 12+
+* Android 6+
 
 
 Docs and Website
 ----------------
 
-[Pure's website][Pure] is also open source, so please open any issues or pull
-requests for the docs and website over at the [`pure-site`][pure-site]
-repository.
+[Pure's website][Pure] is located in the [`site`][pure-site] directory. Please feel free
+to open issues or questions in the Issue tab.
 
 
-[pure-site]: https://github.com/yahoo/pure-site
+[Pure]: http://purecss.io/
+[pure-site]: https://github.com/pure-css/pure/tree/master/site
 
 
 Contributing
@@ -172,14 +134,14 @@ Contributing
 See the [CONTRIBUTING file][] for information on how to contribute to Pure.
 
 
-[CONTRIBUTING file]: https://github.com/yahoo/pure/blob/master/CONTRIBUTING.md
+[CONTRIBUTING file]: https://github.com/pure-css/pure/blob/master/CONTRIBUTING.md
 
 
 License
 -------
 
-This software is free to use under the Yahoo! Inc. BSD license.
+This software is free to use under the Yahoo! Inc. BSD-3-Clause license.
 See the [LICENSE file][] for license text and copyright information.
 
 
-[LICENSE file]: https://github.com/yahoo/pure/blob/master/LICENSE.md
+[LICENSE file]: https://github.com/pure-css/pure/blob/master/LICENSE

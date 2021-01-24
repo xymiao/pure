@@ -1,6 +1,6 @@
 .DS_Store
+.nyc_output/
 artifacts/
-bower_components/
 build/
 coverage/
 node_modules/
